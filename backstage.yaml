@@ -1,0 +1,15 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rust-musl-builder
+  description: "Docker images for compiling static Rust binaries using musl-libc and musl-gcc, with static versions of useful C libraries. Supports openssl and diesel crates."
+  annotations:
+    github.com/project-slug: caddijp/rust-musl-builder
+    backstage.io/source-location: url:https://github.com/caddijp/rust-musl-builder
+  tags:
+    - touches-customer-data
+spec:
+  type: repository
+  lifecycle: production
+  owner: group:TODO-set-owner
